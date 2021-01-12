@@ -1,0 +1,38 @@
+{
+  "project" : {
+    "id" : "5656-3765-pwD",
+    "name" : "5656-3765-pwD",
+    "folder" : "/jaicp"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "UTC",
+    "extendedSettings" : {
+      "tokenizerEngine" : "mystem",
+      "useShared" : false
+    },
+    "shared" : false
+  },
+  "intents" : [ {
+    "id" : 2121,
+    "path" : "/пока",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "пока"
+    } ]
+  }, {
+    "id" : 2122,
+    "path" : "/привет",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "привет"
+    } ]
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
+  "spellerDictionary" : [ ]
+}
