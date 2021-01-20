@@ -12,10 +12,14 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 4075,
+    "id" : 4076,
     "path" : "/Новый интент",
     "enabled" : true,
-    "shared" : false
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "мммммм"
+    } ],
+    "patterns" : [ ]
   } ],
   "entities" : [ ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
