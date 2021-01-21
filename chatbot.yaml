@@ -1,0 +1,26 @@
+name: zb-cailapub
+
+entryPoint:
+  - main.sc
+
+botEngine: v2
+language: ru
+
+sts:
+    noMatchThreshold: 0.2
+
+caila:
+    noMatchThreshold: 0.2
+    
+tests:
+  include:
+    - test.xml
+  exclude:
+    - "test?.xml"
+    
+dependencies:
+  - name: common
+    type: git
+    url: https://bitbucket.org/just-ai/zb-common
+    version: heads/master
+

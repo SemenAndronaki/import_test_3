@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "5656-3765-pwD",
-    "name" : "5656-3765-pwD",
+    "id" : "1-764-UMa",
+    "name" : "1-764-UMa",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -9,14 +9,10 @@
     "spellingCorrection" : false,
     "classificationAlgorithm" : "sts",
     "timezone" : "UTC",
-    "extendedSettings" : {
-      "tokenizerEngine" : "mystem",
-      "useShared" : false
-    },
     "shared" : false
   },
   "intents" : [ {
-    "id" : 2121,
+    "id" : 131159,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -24,7 +20,7 @@
       "text" : "пока"
     } ]
   }, {
-    "id" : 2122,
+    "id" : 131160,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
@@ -32,7 +28,27 @@
       "text" : "привет"
     } ]
   } ],
-  "entities" : [ ],
+  "entities" : [ {
+    "entity" : {
+      "id" : 109079,
+      "name" : "City",
+      "enabled" : true,
+      "shared" : false,
+      "type" : "annotation",
+      "priority" : 1,
+      "noSpelling" : false,
+      "noMorph" : false,
+      "phoneticSearch" : false,
+      "fuzzySearch" : false,
+      "client" : false
+    },
+    "records" : [ {
+      "id" : 3721306,
+      "type" : "synonyms",
+      "rule" : [ "London" ],
+      "value" : "{\n\"name\":\"London\",\n\"lat\":51.50853,\n\"lon\":-0.12574,\n\"country\":\"GB\"\n}"
+    } ]
+  } ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
   "spellerDictionary" : [ ]
 }
