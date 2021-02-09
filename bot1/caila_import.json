@@ -67,11 +67,11 @@
       "value" : ""
     } ]
   } ],
-  "enabledSystemEntities" : [ "duckling.number", "duckling.ordinal", "duckling.amount-of-money", "duckling.distance", "duckling.time", "duckling.date", "duckling.time-of-day", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url", "duckling.interval", "mlps-obscene.obscene", "zb.datetime", "zb.number" ],
+  "enabledSystemEntities" : [ "mystem.geo" ],
   "spellerDictionary" : [ ],
   "systemEntities" : [ {
     "name" : "mystem.geo",
-    "enabled" : false
+    "enabled" : true
   }, {
     "name" : "mystem.persn",
     "enabled" : false
@@ -117,59 +117,59 @@
   }, {
     "name" : "duckling.number",
     "version" : "v2",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "duckling.ordinal",
     "version" : "v2",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "duckling.amount-of-money",
     "version" : "v2",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "duckling.distance",
     "version" : "v2",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "duckling.time",
     "version" : "v2",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "duckling.date",
     "version" : "v2",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "duckling.time-of-day",
     "version" : "v2",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "duckling.duration",
     "version" : "v2",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "duckling.phone-number",
     "version" : "v2",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "duckling.email",
     "version" : "v2",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "duckling.url",
     "version" : "v2",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "duckling.interval",
     "version" : "v2",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "mlps-obscene.obscene",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "zb.datetime",
-    "enabled" : true
+    "enabled" : false
   }, {
     "name" : "zb.number",
-    "enabled" : true
+    "enabled" : false
   } ]
 }
