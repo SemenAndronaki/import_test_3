@@ -16,7 +16,16 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 8010,
+    "id" : 8012,
+    "path" : "/jopa",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "jopa"
+    } ],
+    "patterns" : [ ]
+  }, {
+    "id" : 8013,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -24,7 +33,7 @@
       "text" : "пока"
     } ]
   }, {
-    "id" : 8011,
+    "id" : 8014,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
@@ -32,32 +41,7 @@
       "text" : "привет"
     } ]
   } ],
-  "entities" : [ {
-    "entity" : {
-      "id" : 3502,
-      "name" : "Новая_сущность",
-      "enabled" : true,
-      "shared" : false,
-      "type" : "annotation",
-      "priority" : 1,
-      "noSpelling" : true,
-      "noMorph" : false,
-      "phoneticSearch" : false,
-      "fuzzySearch" : false,
-      "client" : false
-    },
-    "records" : [ {
-      "id" : 42502,
-      "type" : "pattern",
-      "rule" : [ "1" ],
-      "value" : ""
-    }, {
-      "id" : 42503,
-      "type" : "synonyms",
-      "rule" : [ "2" ],
-      "value" : ""
-    } ]
-  } ],
+  "entities" : [ ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
   "spellerDictionary" : [ ],
   "systemEntities" : [ {
