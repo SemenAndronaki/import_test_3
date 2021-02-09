@@ -16,6 +16,16 @@
     "shared" : false
   },
   "intents" : [ {
+    "id" : 8022,
+    "path" : "/Новый интент",
+    "enabled" : true,
+    "shared" : false
+  }, {
+    "id" : 8023,
+    "path" : "/Новый интент 1",
+    "enabled" : true,
+    "shared" : false
+  }, {
     "id" : 8018,
     "path" : "/jopa",
     "enabled" : true,
@@ -25,14 +35,6 @@
     } ],
     "patterns" : [ ]
   }, {
-    "id" : 8019,
-    "path" : "/пока",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "пока"
-    } ]
-  }, {
     "id" : 8020,
     "path" : "/привет",
     "enabled" : true,
@@ -40,11 +42,18 @@
     "phrases" : [ {
       "text" : "привет"
     } ]
+  }, {
+    "id" : 8021,
+    "path" : "/иаке",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "patterns" : [ ]
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 3505,
-      "name" : "Новая_сущность",
+      "id" : 3506,
+      "name" : "Новая_сущность_1",
       "enabled" : true,
       "shared" : false,
       "type" : "annotation",
@@ -56,14 +65,9 @@
       "client" : false
     },
     "records" : [ {
-      "id" : 42508,
+      "id" : 42510,
       "type" : "synonyms",
-      "rule" : [ "1", "один" ],
-      "value" : ""
-    }, {
-      "id" : 42509,
-      "type" : "pattern",
-      "rule" : [ "2" ],
+      "rule" : [ "кккккккккку" ],
       "value" : ""
     } ]
   } ],
