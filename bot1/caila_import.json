@@ -16,7 +16,7 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 8015,
+    "id" : 8024,
     "path" : "/jopa",
     "enabled" : true,
     "shared" : false,
@@ -25,7 +25,7 @@
     } ],
     "patterns" : [ ]
   }, {
-    "id" : 8016,
+    "id" : 8025,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -33,7 +33,7 @@
       "text" : "пока"
     } ]
   }, {
-    "id" : 8017,
+    "id" : 8026,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
@@ -43,7 +43,7 @@
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 3504,
+      "id" : 3507,
       "name" : "Новая_сущность",
       "enabled" : true,
       "shared" : false,
@@ -56,12 +56,12 @@
       "client" : false
     },
     "records" : [ {
-      "id" : 42506,
+      "id" : 42511,
       "type" : "synonyms",
       "rule" : [ "1", "один" ],
       "value" : ""
     }, {
-      "id" : 42507,
+      "id" : 42512,
       "type" : "pattern",
       "rule" : [ "2" ],
       "value" : ""
