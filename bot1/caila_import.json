@@ -55,7 +55,19 @@
       "fuzzySearch" : false,
       "client" : true
     },
-    "records" : [ ]
+    "records" : [ {
+      "id" : 42514,
+      "type" : "synonyms",
+      "rule" : [ "конфет" ],
+      "value" : "конфет",
+      "clientId" : "7e2c84b9-59fd-fb4d-530c-1a51c2520b17"
+    }, {
+      "id" : 42513,
+      "type" : "synonyms",
+      "rule" : [ "конфкт" ],
+      "value" : "конфкт",
+      "clientId" : "7e2c84b9-59fd-fb4d-530c-1a51c2520b17"
+    } ]
   }, {
     "entity" : {
       "id" : 3507,
