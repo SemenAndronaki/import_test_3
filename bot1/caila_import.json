@@ -32,7 +32,32 @@
       "text" : "привет"
     } ]
   } ],
-  "entities" : [ ],
+  "entities" : [ {
+    "entity" : {
+      "id" : 3502,
+      "name" : "Новая_сущность",
+      "enabled" : true,
+      "shared" : false,
+      "type" : "annotation",
+      "priority" : 1,
+      "noSpelling" : true,
+      "noMorph" : false,
+      "phoneticSearch" : false,
+      "fuzzySearch" : false,
+      "client" : false
+    },
+    "records" : [ {
+      "id" : 42502,
+      "type" : "pattern",
+      "rule" : [ "1" ],
+      "value" : ""
+    }, {
+      "id" : 42503,
+      "type" : "synonyms",
+      "rule" : [ "2" ],
+      "value" : ""
+    } ]
+  } ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
   "spellerDictionary" : [ ],
   "systemEntities" : [ {
