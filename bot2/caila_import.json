@@ -16,6 +16,15 @@
     "shared" : false
   },
   "intents" : [ {
+    "id" : 8009,
+    "path" : "/jopa",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "jopa"
+    } ],
+    "patterns" : [ ]
+  }, {
     "id" : 8007,
     "path" : "/пока",
     "enabled" : true,
