@@ -6,8 +6,8 @@
   },
   "settings" : {
     "language" : "ru",
-    "spellingCorrection" : false,
-    "classificationAlgorithm" : "sts",
+    "spellingCorrection" : true,
+    "classificationAlgorithm" : "deeplearning",
     "timezone" : "UTC",
     "extendedSettings" : {
       "tokenizerEngine" : "mystem",
@@ -16,17 +16,17 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 8022,
+    "id" : 8031,
     "path" : "/Новый интент",
     "enabled" : true,
     "shared" : false
   }, {
-    "id" : 8023,
+    "id" : 8032,
     "path" : "/Новый интент 1",
     "enabled" : true,
     "shared" : false
   }, {
-    "id" : 8018,
+    "id" : 8033,
     "path" : "/jopa",
     "enabled" : true,
     "shared" : false,
@@ -35,7 +35,7 @@
     } ],
     "patterns" : [ ]
   }, {
-    "id" : 8020,
+    "id" : 8034,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
@@ -43,7 +43,7 @@
       "text" : "привет"
     } ]
   }, {
-    "id" : 8021,
+    "id" : 8035,
     "path" : "/иаке",
     "enabled" : true,
     "shared" : false,
@@ -52,7 +52,7 @@
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 3506,
+      "id" : 3510,
       "name" : "Новая_сущность_1",
       "enabled" : true,
       "shared" : false,
@@ -65,7 +65,7 @@
       "client" : false
     },
     "records" : [ {
-      "id" : 42510,
+      "id" : 42515,
       "type" : "synonyms",
       "rule" : [ "кккккккккку" ],
       "value" : ""
