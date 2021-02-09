@@ -67,7 +67,7 @@
       "value" : ""
     } ]
   } ],
-  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.ordinal", "duckling.amount-of-money", "duckling.distance", "duckling.time", "duckling.date", "duckling.time-of-day", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url", "duckling.interval", "mlps-obscene.obscene", "zb.datetime", "zb.number" ],
   "spellerDictionary" : [ ],
   "systemEntities" : [ {
     "name" : "mystem.geo",
@@ -121,15 +121,15 @@
   }, {
     "name" : "duckling.ordinal",
     "version" : "v2",
-    "enabled" : false
+    "enabled" : true
   }, {
     "name" : "duckling.amount-of-money",
     "version" : "v2",
-    "enabled" : false
+    "enabled" : true
   }, {
     "name" : "duckling.distance",
     "version" : "v2",
-    "enabled" : false
+    "enabled" : true
   }, {
     "name" : "duckling.time",
     "version" : "v2",
@@ -137,11 +137,11 @@
   }, {
     "name" : "duckling.date",
     "version" : "v2",
-    "enabled" : false
+    "enabled" : true
   }, {
     "name" : "duckling.time-of-day",
     "version" : "v2",
-    "enabled" : false
+    "enabled" : true
   }, {
     "name" : "duckling.duration",
     "version" : "v2",
@@ -161,15 +161,15 @@
   }, {
     "name" : "duckling.interval",
     "version" : "v2",
-    "enabled" : false
+    "enabled" : true
   }, {
     "name" : "mlps-obscene.obscene",
-    "enabled" : false
+    "enabled" : true
   }, {
     "name" : "zb.datetime",
-    "enabled" : false
+    "enabled" : true
   }, {
     "name" : "zb.number",
-    "enabled" : false
+    "enabled" : true
   } ]
 }
