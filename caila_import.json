@@ -1,54 +1,90 @@
 {
-  "project" : {
-    "id" : "1-764-UMa",
-    "name" : "1-764-UMa",
-    "folder" : "/jaicp"
-  },
-  "settings" : {
-    "language" : "ru",
-    "spellingCorrection" : false,
-    "classificationAlgorithm" : "sts",
-    "timezone" : "UTC",
-    "shared" : false
-  },
-  "intents" : [ {
-    "id" : 131159,
-    "path" : "/пока",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "пока"
-    } ]
-  }, {
-    "id" : 131160,
-    "path" : "/привет",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "привет"
-    } ]
-  } ],
-  "entities" : [ {
-    "entity" : {
-      "id" : 109079,
-      "name" : "City",
-      "enabled" : true,
-      "shared" : false,
-      "type" : "annotation",
-      "priority" : 1,
-      "noSpelling" : false,
-      "noMorph" : false,
-      "phoneticSearch" : false,
-      "fuzzySearch" : false,
-      "client" : false
+    "project": {
+        "id": "zb-cailapub",
+        "name": "zb-cailapub",
+        "folder": "/"
     },
-    "records" : [ {
-      "id" : 3721306,
-      "type" : "synonyms",
-      "rule" : [ "London" ],
-      "value" : "{\n\"name\":\"London\",\n\"lat\":51.50853,\n\"lon\":-0.12574,\n\"country\":\"GB\"\n}"
-    } ]
-  } ],
-  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
-  "spellerDictionary" : [ ]
+    "settings": {
+        "language": "ru",
+        "spellingCorrection": false,
+        "classificationAlgorithm": "sts",
+        "timezone": "Europe/Moscow",
+        "extendedSettings": {
+      "tokenizerEngine": "mystem",
+            "useShared": false
+        }
+    },
+    "intents": [
+        {
+            "path": "/пока",
+            "description": null,
+            "answer": null,
+            "customData": null,
+            "enabled": true,
+            "phrases": [
+                {
+                    "text": "пока",
+                    "entities": null
+                }
+            ],
+            "patterns": null,
+            "slots": null
+        },
+        {
+            "path": "/привет",
+            "description": null,
+            "answer": null,
+            "customData": null,
+            "enabled": true,
+            "phrases": [
+                {
+                    "text": "привет",
+                    "entities": null
+                }
+            ],
+            "patterns": null,
+            "slots": null
+        }
+    ],
+    "entities": [],
+    "enabledSystemEntities": [
+        "duckling.number",
+        "duckling.time",
+        "duckling.duration",
+        "duckling.phone-number",
+        "duckling.email",
+        "duckling.url"
+    ],
+    "systemEntities": [
+        {
+            "name": "duckling.number",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.time",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.duration",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.phone-number",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.email",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.url",
+            "version": "v2",
+            "enabled": true
+        }
+    ]
 }

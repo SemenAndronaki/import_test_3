@@ -1,32 +1,20 @@
-require: catchAll/catchAll.sc
-
-require: city/cities-ru.csv
-    module = common
-    name = cities
-    var = $cities
-    
-patterns:
-    $City = $entity<cities>
-
+require: slotfilling/slotFilling.sc
+  module = sys.zb-common
 theme: /
 
-    state: 
+    state: Start
         q!: $regex</start>
         a: Начнём.
 
-    state: привет
+    state: Hello
         intent!: /привет
         a: Привет привет
 
-    state: пока
+    state: Bye
         intent!: /пока
         a: Пока пока
-        
-    state: City
-        q!: $City
-        a: {{toPrettyString($parseTree)}}
-        script:
-            var city_id = $parseTree.City[0].value;
-            $temp.value = $cities[city_id].value;
-        a: {{toPrettyString($temp.value)}}
+
+    state: NoMatch
+        event!: noMatch
+        a: Я не понял. Вы сказали: {{$request.query}}
 
