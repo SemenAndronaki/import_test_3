@@ -14,7 +14,13 @@ theme: /
         intent!: /пока
         a: Пока пока bot1
 
-    state: NoMatch
+    state:
+        q!: @ClientEntity
+        a: А теперь сущность распозналась: {{$parseTree._ClientEntity}}
+
+    state:
         event!: noMatch
-        a: Я не понял. Вы сказали: {{$request.query}} bot1
+        a: Сработал no match. То, что ты написал, будет добавлено в сущность. Напиши введённое сообщение во второй раз и оно попадёт в другой стейт.
+        script:
+            $caila.addClientEntityRecords("ClientEntity", [{"type": "synonyms", "rule": [$parseTree.text], "value": $parseTree.text}]);
 

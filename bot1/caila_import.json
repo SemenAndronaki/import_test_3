@@ -43,6 +43,21 @@
   } ],
   "entities" : [ {
     "entity" : {
+      "id" : 3509,
+      "name" : "ClientEntity",
+      "enabled" : true,
+      "shared" : false,
+      "type" : "annotation",
+      "priority" : 1,
+      "noSpelling" : false,
+      "noMorph" : false,
+      "phoneticSearch" : false,
+      "fuzzySearch" : false,
+      "client" : true
+    },
+    "records" : [ ]
+  }, {
+    "entity" : {
       "id" : 3507,
       "name" : "Новая_сущность",
       "enabled" : true,
