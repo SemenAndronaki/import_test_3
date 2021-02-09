@@ -6,7 +6,7 @@
   },
   "settings" : {
     "language" : "ru",
-    "spellingCorrection" : false,
+    "spellingCorrection" : true,
     "classificationAlgorithm" : "sts",
     "timezone" : "UTC",
     "extendedSettings" : {
@@ -68,7 +68,10 @@
     } ]
   } ],
   "enabledSystemEntities" : [ "mystem.geo" ],
-  "spellerDictionary" : [ ],
+  "spellerDictionary" : [ {
+    "word" : "масква",
+    "frequency" : 1
+  } ],
   "systemEntities" : [ {
     "name" : "mystem.geo",
     "enabled" : true
