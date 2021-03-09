@@ -10,6 +10,7 @@
     "classificationAlgorithm" : "regression",
     "timezone" : "UTC",
     "extendedSettings" : {
+      "allowedPatterns" : [ "Новая_сущность_1" ],
       "useShared" : false
     },
     "shared" : false
