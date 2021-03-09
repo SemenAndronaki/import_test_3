@@ -1,13 +1,13 @@
 {
   "project" : {
-    "id" : "77-3711-KAy",
-    "name" : "77-3711-KAy",
+    "id" : "r-13726-BWE",
+    "name" : "r-13726-BWE",
     "folder" : "/jaicp"
   },
   "settings" : {
     "language" : "ru",
     "spellingCorrection" : true,
-    "classificationAlgorithm" : "deeplearning",
+    "classificationAlgorithm" : "regression",
     "timezone" : "UTC",
     "extendedSettings" : {
       "tokenizerEngine" : "mystem",
@@ -16,17 +16,17 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 8031,
+    "id" : 1009,
     "path" : "/Новый интент",
     "enabled" : true,
     "shared" : false
   }, {
-    "id" : 8032,
+    "id" : 1010,
     "path" : "/Новый интент 1",
     "enabled" : true,
     "shared" : false
   }, {
-    "id" : 8033,
+    "id" : 1011,
     "path" : "/jopa",
     "enabled" : true,
     "shared" : false,
@@ -35,7 +35,7 @@
     } ],
     "patterns" : [ ]
   }, {
-    "id" : 8034,
+    "id" : 1012,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
@@ -43,7 +43,7 @@
       "text" : "привет"
     } ]
   }, {
-    "id" : 8035,
+    "id" : 1013,
     "path" : "/иаке",
     "enabled" : true,
     "shared" : false,
@@ -52,7 +52,7 @@
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 3510,
+      "id" : 501,
       "name" : "Новая_сущность_1",
       "enabled" : true,
       "shared" : false,
@@ -65,7 +65,7 @@
       "client" : false
     },
     "records" : [ {
-      "id" : 42515,
+      "id" : 1,
       "type" : "synonyms",
       "rule" : [ "кккккккккку" ],
       "value" : ""
