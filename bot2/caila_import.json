@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "r-13726-BWE",
-    "name" : "r-13726-BWE",
+    "id" : "343434-13726-Slq",
+    "name" : "343434-13726-Slq",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -10,23 +10,45 @@
     "classificationAlgorithm" : "regression",
     "timezone" : "UTC",
     "extendedSettings" : {
-      "tokenizerEngine" : "mystem",
-      "useShared" : false
+      "useShared" : false,
+      "externalNluSettings" : {
+        "nluProviderSettings" : {
+          "markup" : {
+            "nluType" : "external",
+            "url" : "http://dialogue01.lo.test-ai.net:9320"
+          },
+          "ner" : {
+            "nluType" : "external",
+            "url" : "http://dialogue01.lo.test-ai.net:9320"
+          },
+          "classification" : {
+            "nluType" : "external",
+            "url" : "http://dialogue01.lo.test-ai.net:9320"
+          }
+        },
+        "language" : "ja",
+        "nluActionAdditionalProperties" : {
+          "classification" : {
+            "modelId" : "123",
+            "classifierName" : "model-api-test-aieh"
+          }
+        }
+      }
     },
     "shared" : false
   },
   "intents" : [ {
-    "id" : 1009,
+    "id" : 1048,
     "path" : "/Новый интент",
     "enabled" : true,
     "shared" : false
   }, {
-    "id" : 1010,
+    "id" : 1049,
     "path" : "/Новый интент 1",
     "enabled" : true,
     "shared" : false
   }, {
-    "id" : 1011,
+    "id" : 1050,
     "path" : "/jopa",
     "enabled" : true,
     "shared" : false,
@@ -35,7 +57,7 @@
     } ],
     "patterns" : [ ]
   }, {
-    "id" : 1012,
+    "id" : 1051,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
@@ -43,7 +65,7 @@
       "text" : "привет"
     } ]
   }, {
-    "id" : 1013,
+    "id" : 1052,
     "path" : "/иаке",
     "enabled" : true,
     "shared" : false,
@@ -52,7 +74,7 @@
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 501,
+      "id" : 507,
       "name" : "Новая_сущность_1",
       "enabled" : true,
       "shared" : false,
@@ -65,7 +87,7 @@
       "client" : false
     },
     "records" : [ {
-      "id" : 1,
+      "id" : 21,
       "type" : "synonyms",
       "rule" : [ "кккккккккку" ],
       "value" : ""

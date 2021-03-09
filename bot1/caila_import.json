@@ -1,13 +1,13 @@
 {
   "project" : {
-    "id" : "77-3711-KAy",
-    "name" : "77-3711-KAy",
+    "id" : "343434-13726-Slq",
+    "name" : "343434-13726-Slq",
     "folder" : "/jaicp"
   },
   "settings" : {
     "language" : "ru",
     "spellingCorrection" : true,
-    "classificationAlgorithm" : "deeplearning",
+    "classificationAlgorithm" : "regression",
     "timezone" : "UTC",
     "extendedSettings" : {
       "tokenizerEngine" : "mystem",
@@ -16,7 +16,7 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 8024,
+    "id" : 1045,
     "path" : "/jopa",
     "enabled" : true,
     "shared" : false,
@@ -25,7 +25,7 @@
     } ],
     "patterns" : [ ]
   }, {
-    "id" : 8025,
+    "id" : 1046,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -33,7 +33,7 @@
       "text" : "пока"
     } ]
   }, {
-    "id" : 8026,
+    "id" : 1047,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
@@ -43,7 +43,7 @@
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 3509,
+      "id" : 505,
       "name" : "ClientEntity",
       "enabled" : true,
       "shared" : false,
@@ -56,13 +56,13 @@
       "client" : true
     },
     "records" : [ {
-      "id" : 42514,
+      "id" : 17,
       "type" : "synonyms",
       "rule" : [ "конфет" ],
       "value" : "конфет",
       "clientId" : "7e2c84b9-59fd-fb4d-530c-1a51c2520b17"
     }, {
-      "id" : 42513,
+      "id" : 18,
       "type" : "synonyms",
       "rule" : [ "конфкт" ],
       "value" : "конфкт",
@@ -70,7 +70,7 @@
     } ]
   }, {
     "entity" : {
-      "id" : 3507,
+      "id" : 506,
       "name" : "Новая_сущность",
       "enabled" : true,
       "shared" : false,
@@ -83,12 +83,12 @@
       "client" : false
     },
     "records" : [ {
-      "id" : 42511,
+      "id" : 19,
       "type" : "synonyms",
       "rule" : [ "1", "один" ],
       "value" : ""
     }, {
-      "id" : 42512,
+      "id" : 20,
       "type" : "pattern",
       "rule" : [ "2" ],
       "value" : ""
