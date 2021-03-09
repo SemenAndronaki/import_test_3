@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "343434-13726-Slq",
-    "name" : "343434-13726-Slq",
+    "id" : "122121-13726-nxB",
+    "name" : "122121-13726-nxB",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -38,7 +38,7 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 1053,
+    "id" : 1075,
     "path" : "/jopa",
     "enabled" : true,
     "shared" : false,
@@ -47,7 +47,7 @@
     } ],
     "patterns" : [ ]
   }, {
-    "id" : 1054,
+    "id" : 1076,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -55,7 +55,7 @@
       "text" : "пока"
     } ]
   }, {
-    "id" : 1055,
+    "id" : 1077,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
@@ -65,7 +65,7 @@
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 508,
+      "id" : 510,
       "name" : "ClientEntity",
       "enabled" : true,
       "shared" : false,
@@ -78,13 +78,13 @@
       "client" : true
     },
     "records" : [ {
-      "id" : 22,
+      "id" : 26,
       "type" : "synonyms",
       "rule" : [ "конфет" ],
       "value" : "конфет",
       "clientId" : "7e2c84b9-59fd-fb4d-530c-1a51c2520b17"
     }, {
-      "id" : 23,
+      "id" : 27,
       "type" : "synonyms",
       "rule" : [ "конфкт" ],
       "value" : "конфкт",
@@ -92,7 +92,7 @@
     } ]
   }, {
     "entity" : {
-      "id" : 509,
+      "id" : 511,
       "name" : "Новая_сущность",
       "enabled" : true,
       "shared" : false,
@@ -105,12 +105,12 @@
       "client" : false
     },
     "records" : [ {
-      "id" : 24,
+      "id" : 28,
       "type" : "synonyms",
       "rule" : [ "1", "один" ],
       "value" : ""
     }, {
-      "id" : 25,
+      "id" : 29,
       "type" : "pattern",
       "rule" : [ "2" ],
       "value" : ""
