@@ -7,10 +7,10 @@
   "settings" : {
     "language" : "ru",
     "spellingCorrection" : false,
-    "classificationAlgorithm" : "sts",
+    "classificationAlgorithm" : "regression",
     "timezone" : "UTC",
     "extendedSettings" : {
-      "tokenizerEngine" : "mystem",
+      "tokenizerEngine" : "udpipe",
       "useShared" : false
     },
     "shared" : false
