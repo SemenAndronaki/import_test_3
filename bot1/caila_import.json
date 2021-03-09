@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "122121-13726-nxB",
-    "name" : "122121-13726-nxB",
+    "id" : "12121-13726-sxK",
+    "name" : "12121-13726-sxK",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -10,35 +10,13 @@
     "classificationAlgorithm" : "regression",
     "timezone" : "UTC",
     "extendedSettings" : {
-      "useShared" : false,
-      "externalNluSettings" : {
-        "nluProviderSettings" : {
-          "markup" : {
-            "nluType" : "external",
-            "url" : "http://dialogue01.lo.test-ai.net:9320"
-          },
-          "ner" : {
-            "nluType" : "external",
-            "url" : "http://dialogue01.lo.test-ai.net:9320"
-          },
-          "classification" : {
-            "nluType" : "external",
-            "url" : "http://dialogue01.lo.test-ai.net:9320"
-          }
-        },
-        "language" : "ja",
-        "nluActionAdditionalProperties" : {
-          "classification" : {
-            "modelId" : "123",
-            "classifierName" : "model-api-test-aieh"
-          }
-        }
-      }
+      "allowedPatterns" : [ ],
+      "useShared" : false
     },
     "shared" : false
   },
   "intents" : [ {
-    "id" : 1075,
+    "id" : 1090,
     "path" : "/jopa",
     "enabled" : true,
     "shared" : false,
@@ -47,7 +25,7 @@
     } ],
     "patterns" : [ ]
   }, {
-    "id" : 1076,
+    "id" : 1091,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -55,7 +33,7 @@
       "text" : "пока"
     } ]
   }, {
-    "id" : 1077,
+    "id" : 1092,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
@@ -65,7 +43,7 @@
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 510,
+      "id" : 514,
       "name" : "ClientEntity",
       "enabled" : true,
       "shared" : false,
@@ -78,13 +56,13 @@
       "client" : true
     },
     "records" : [ {
-      "id" : 26,
+      "id" : 32,
       "type" : "synonyms",
       "rule" : [ "конфет" ],
       "value" : "конфет",
       "clientId" : "7e2c84b9-59fd-fb4d-530c-1a51c2520b17"
     }, {
-      "id" : 27,
+      "id" : 33,
       "type" : "synonyms",
       "rule" : [ "конфкт" ],
       "value" : "конфкт",
@@ -92,7 +70,7 @@
     } ]
   }, {
     "entity" : {
-      "id" : 511,
+      "id" : 515,
       "name" : "Новая_сущность",
       "enabled" : true,
       "shared" : false,
@@ -105,12 +83,12 @@
       "client" : false
     },
     "records" : [ {
-      "id" : 28,
+      "id" : 34,
       "type" : "synonyms",
       "rule" : [ "1", "один" ],
       "value" : ""
     }, {
-      "id" : 29,
+      "id" : 35,
       "type" : "pattern",
       "rule" : [ "2" ],
       "value" : ""
