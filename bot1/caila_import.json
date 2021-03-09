@@ -1,14 +1,18 @@
 {
   "project" : {
-    "id" : "1-13726-Par",
-    "name" : "1-13726-Par",
-    "folder" : "/"
+    "id" : "1-13726-vep",
+    "name" : "1-13726-vep",
+    "folder" : "/jaicp"
   },
   "settings" : {
     "language" : "ru",
     "spellingCorrection" : false,
     "classificationAlgorithm" : "sts",
     "timezone" : "UTC",
+    "extendedSettings" : {
+      "tokenizerEngine" : "mystem",
+      "useShared" : false
+    },
     "shared" : false
   },
   "intents" : [ ],
