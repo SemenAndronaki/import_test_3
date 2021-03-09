@@ -4,17 +4,17 @@ theme: /
 
     state: Start
         q!: $regex</start>
-        a: Начнём bot2
+        a: Начнём.
 
     state: Hello
         intent!: /привет
-        a: Привет привет bot2
+        a: Привет привет
 
     state: Bye
         intent!: /пока
-        a: Пока пока bot2
+        a: Пока пока
 
     state: NoMatch
         event!: noMatch
-        a: Я не понял. Вы сказали: {{$request.query}} bot2
+        a: Я не понял. Вы сказали: {{$request.query}}
 
