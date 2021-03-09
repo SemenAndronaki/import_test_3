@@ -48,6 +48,13 @@
     "shared" : false,
     "phrases" : [ ],
     "patterns" : [ ]
+  }, {
+    "id" : 1083,
+    "path" : "/bot 2",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "patterns" : [ ]
   } ],
   "entities" : [ {
     "entity" : {
