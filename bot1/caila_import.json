@@ -10,13 +10,35 @@
     "classificationAlgorithm" : "regression",
     "timezone" : "UTC",
     "extendedSettings" : {
-      "tokenizerEngine" : "mystem",
-      "useShared" : false
+      "useShared" : false,
+      "externalNluSettings" : {
+        "nluProviderSettings" : {
+          "markup" : {
+            "nluType" : "external",
+            "url" : "http://dialogue01.lo.test-ai.net:9320"
+          },
+          "ner" : {
+            "nluType" : "external",
+            "url" : "http://dialogue01.lo.test-ai.net:9320"
+          },
+          "classification" : {
+            "nluType" : "external",
+            "url" : "http://dialogue01.lo.test-ai.net:9320"
+          }
+        },
+        "language" : "ja",
+        "nluActionAdditionalProperties" : {
+          "classification" : {
+            "modelId" : "123",
+            "classifierName" : "model-api-test-aieh"
+          }
+        }
+      }
     },
     "shared" : false
   },
   "intents" : [ {
-    "id" : 1045,
+    "id" : 1053,
     "path" : "/jopa",
     "enabled" : true,
     "shared" : false,
@@ -25,7 +47,7 @@
     } ],
     "patterns" : [ ]
   }, {
-    "id" : 1046,
+    "id" : 1054,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -33,7 +55,7 @@
       "text" : "пока"
     } ]
   }, {
-    "id" : 1047,
+    "id" : 1055,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
@@ -43,7 +65,7 @@
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 505,
+      "id" : 508,
       "name" : "ClientEntity",
       "enabled" : true,
       "shared" : false,
@@ -56,13 +78,13 @@
       "client" : true
     },
     "records" : [ {
-      "id" : 17,
+      "id" : 22,
       "type" : "synonyms",
       "rule" : [ "конфет" ],
       "value" : "конфет",
       "clientId" : "7e2c84b9-59fd-fb4d-530c-1a51c2520b17"
     }, {
-      "id" : 18,
+      "id" : 23,
       "type" : "synonyms",
       "rule" : [ "конфкт" ],
       "value" : "конфкт",
@@ -70,7 +92,7 @@
     } ]
   }, {
     "entity" : {
-      "id" : 506,
+      "id" : 509,
       "name" : "Новая_сущность",
       "enabled" : true,
       "shared" : false,
@@ -83,12 +105,12 @@
       "client" : false
     },
     "records" : [ {
-      "id" : 19,
+      "id" : 24,
       "type" : "synonyms",
       "rule" : [ "1", "один" ],
       "value" : ""
     }, {
-      "id" : 20,
+      "id" : 25,
       "type" : "pattern",
       "rule" : [ "2" ],
       "value" : ""
